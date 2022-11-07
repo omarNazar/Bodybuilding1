@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding | Body Mass </title>
+    <link rel="stylesheet" href="./css/signIn.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>رياضة بناء الأجسام/ تسجيل الدخول </h1>
+            <ul>
+                <li class="lst firstPage">
+                    <a href="./main.html">الصفحة الرئيسية</a>
+                </li>
+                <li class="lst secondPag">
+                    <a href="./exerciseSchedule.html">جدول التمارين</a>
+                </li>
+                <li class="lst thirdPage">
+                    <a href="./diet.html">النظام الغذائي</a>
+                </li>
+                <li class="lst fourthPage">
+                    <a href="./bodyMass.html">مؤشر كتلة الجسم</a>
+                </li>
+                <li class="lst fourth2Page">
+                    <a href="./market.html">متجر المكملات</a>
+                </li>
+                <li class="lst fifthPage">
+                    <a href="./callUs.html">تواصل معنا</a>
+                </li>
+                <li class="lst logIn">
+                    <a href="./signIn.html">تسجيل الدخول</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>تسجيل الدخول</h1>
+        <div>
+            <form action="">
+                <input type="text" hidden>
+                <p>البريد الإلكتروني: </p>
+                <input id="inEmail" type="email" dir="ltr" value="" required>
+                <p>كلمة المرور: </p>
+                <input id="inPassword" type="password" dir="ltr" value="" required>
+                <br>
+                <button id="inButton">تسجيل الدخول</button>
+                <br>
+            </form>
+            <span>إذا لم يكن لديك حساب  <a href="./signUp.html">سجل الآن </a> </span>
+        </div>
+    </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        swal("توضيح..", "لم أكمل برمجة صفحة تسجيل الدخول لأنها تتطلب تخزين معلومات المشترك في قاعدة بيانات وهذا متعلق بالـ BackEnd")
+    </script>
+    <script src="./js/signUp.js"></script>
+</body>
+
+</html>

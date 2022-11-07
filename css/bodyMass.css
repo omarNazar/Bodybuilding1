@@ -1,0 +1,166 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* header formatting start */
+
+header h1 {
+    background-color: black;
+    color: rgb(249, 170, 26);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(249, 170, 26);
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.fourthPage {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.logIn {
+    margin-right: 110px;
+}
+
+
+/* header formatting end */
+
+main {
+    position: fixed;
+    height: auto;
+    width: 100%;
+    padding-top: 110px;
+    background-image: url(../img/bodyMass.jpg);
+    background-size: cover;
+}
+
+main div {
+    padding-right: 100px;
+    color: white;
+    line-height: 1.5;
+}
+
+main div h2 {
+    color: rgb(249, 170, 26);
+    margin-top: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+main div p {
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+}
+
+input {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding-right: 10px;
+    border-radius: 15px
+}
+
+input:hover {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+label {
+    margin-right: 5px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+#click {
+    width: 215px;
+    height: 35px;
+    background-color: rgb(237, 223, 121);
+}
+
+#click:hover {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+#click:active {
+    background-color: gray;
+}
+
+span {
+    color: rgb(249, 170, 26);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: right;
+    text-shadow: 2px 2px 2px black;
+}
+
+.result {
+    padding: 0;
+    height: 50px;
+    width: 40%;
+    text-align: right;
+    border: 1px solid rgb(249, 170, 26);
+    color: aqua;
+    word-spacing: 5px;
+}
+
+#clear {
+    height: 35px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 200px;
+    margin-top: 30px;
+    background-color: rgb(237, 223, 121);
+}
+
+#clear:hover {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+#clear:active {
+    background-color: gray;
+}
+
+.massImg {
+    position: relative;
+    right: 600px;
+    bottom: 250px;
+}
+
+.bodyMassChart {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 50px 20px black;
+    z-index: -1;
+}

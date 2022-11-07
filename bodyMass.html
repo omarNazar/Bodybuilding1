@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding | Body Mass </title>
+    <link rel="stylesheet" href="./css/bodyMass.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>رياضة بناء الأجسام/ حساب مؤشر كتلة الجسم </h1>
+            <ul>
+                <li class="lst firstPage">
+                    <a href="./main.html">الصفحة الرئيسية</a>
+                </li>
+                <li class="lst secondPag">
+                    <a href="./exerciseSchedule.html">جدول التمارين</a>
+                </li>
+                <li class="lst thirdPage">
+                    <a href="./diet.html">النظام الغذائي</a>
+                </li>
+                <li class="lst fourthPage">
+                    <a href="./bodyMass.html">مؤشر كتلة الجسم</a>
+                </li>
+                <li class="lst fourth2Page">
+                    <a href="./market.html">متجر المكملات</a>
+                </li>
+                <li class="lst fifthPage">
+                    <a href="./callUs.html">تواصل معنا</a>
+                </li>
+                <li class="lst logIn">
+                    <a href="./signIn.html">تسجيل الدخول</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <h2>مؤشر كتلة الجسم (BMI):</h2>
+            <p>هي وحدة قياس لتقييم الوزن الطبيعي أو زيادة الوزن. ويتم ذلك من خلال فحص العلاقة بين طول ووزن الجسم.</p>
+            <h2> ويتم الحساب كما يلي:</h2>
+            <p>مؤشر كتلة الجسم (BMI) = الطول بالمتر × الطول بالمتر / وزن الجسم بالكيلوغرام.</p>
+        </div>
+        <div>
+            <form action="">
+                <input type="text" hidden>
+                <!-- body weight-->
+                <input id="weight" type="text" placeholder="وزن الجسم (مثلا 68.5)">
+                <label for="">كغم</label>
+                <!-- height -->
+                <input id="height" type="text" placeholder="الطول (مثلا 172)">
+                <label for="">سم</label>
+                <br>
+                <input id="click" type="button" value="احسب">
+                <!-- body mass -->
+                <br><br>
+                <span>مؤشر كتلة الجسم (BMI) : </span>
+                <div id="res" class="result"> </div>
+                <input id="clear" type="reset" value="تفريغ الحقول">
+            </form>
+        </div>
+        <div class="massImg">
+            <img class="bodyMassChart" src="./img/bodyMassChart.jpg" alt="">
+        </div>
+    </main>
+    <script src="./js/bodyMass.js"></script>
+</body>
+
+</html>

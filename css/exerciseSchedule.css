@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: url(../img/bodyMass.jpg);
+    background-size: cover;
+}
+
+
+/* header formatting start */
+
+header h1 {
+    background-color: black;
+    color: rgb(249, 170, 26);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(249, 170, 26);
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.secondPage {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.logIn {
+    margin-right: 110px;
+}
+
+
+/* header formatting end */
+
+main {
+    height: auto;
+    width: 100%;
+    padding-top: 120px;
+}
+
+.artTable {
+    text-align: center;
+}
+
+table {
+    margin: 30px 12%;
+    width: 75%;
+    height: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 50px 10px black;
+}
+
+table th {
+    background-color: black;
+    color: rgb(249, 170, 26);
+}
+
+table td {
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+table td a {
+    color: cyan;
+    text-shadow: 2px 2px 2px black;
+}
+
+table td a:visited {
+    color: rgb(181, 40, 127);
+}

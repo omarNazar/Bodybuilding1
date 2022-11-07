@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    background-image: url(../img/bodyMass.jpg);
+    background-size: cover;
+}
+
+
+/* header formatting start */
+
+header h1 {
+    background-color: black;
+    color: rgb(249, 170, 26);
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(249, 170, 26);
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.fifthPage {
+    background-color: gray;
+    box-shadow: 0px 0px 5px 5px rgb(241, 227, 76);
+}
+
+.logIn {
+    margin-right: 110px;
+}
+
+
+/* header formatting end */
+
+main {
+    height: auto;
+    width: 100%;
+    padding-top: 130px;
+}
+
+table {
+    margin-right: 21%;
+    width: 60%;
+}
+
+td {
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px 2px black;
+}
+
+td h3 {
+    color: rgb(249, 170, 26);
+    font-size: 25px;
+}
+
+input {
+    width: 500px;
+    height: 35px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+
+input:focus {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+.state {
+    width: 515px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    padding-right: 20px;
+    border-radius: 15px;
+}
+
+.state:focus {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+textarea {
+    width: 500px;
+    height: 150px;
+    font-size: 25px;
+    padding-right: 10px;
+    text-align: justify;
+    border-radius: 15px;
+}
+
+textarea:focus {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+.message {
+    vertical-align: top;
+    color: black;
+}
+
+.submit {
+    margin-right: 67%;
+    height: 40px;
+    width: 150px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(237, 223, 121);
+}
+
+.submit:hover {
+    box-shadow: 1px 1px 10px rgb(249, 170, 26);
+}
+
+.submit:active {
+    background-color: gray;
+}
+
+.point {
+    color: rgb(73, 73, 73);
+}

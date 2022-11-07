@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodybuilding | LogOut </title>
+    <link rel="stylesheet" href="./css/market.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>رياضة بناء الأجسام/ المتجر المكملات </h1>
+            <ul>
+                <li class="lst firstPage">
+                    <a href="./main.html">الصفحة الرئيسية</a>
+                </li>
+                <li class="lst secondPag">
+                    <a href="./exerciseSchedule.html">جدول التمارين</a>
+                </li>
+                <li class="lst thirdPage">
+                    <a href="./diet.html">النظام الغذائي</a>
+                </li>
+                <li class="lst fourthPage">
+                    <a href="./bodyMass.html">مؤشر كتلة الجسم</a>
+                </li>
+                <li class="lst fourth2Page">
+                    <a href="./market.html">متجر المكملات</a>
+                </li>
+                <li class="lst fifthPage">
+                    <a href="./callUs.html">تواصل معنا</a>
+                    <li>
+                        <a class="cart" href="./Cart.html">
+                            <img class="Cart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                            /><span>Cart</span>
+                        </a>
+                    </li>
+                </li>
+                <li class="lst logIn">
+                    <a href="./signIn.html">تسجيل الدخول</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!--product 1 -->
+            <div id="product1" class="product">
+                <img class="productImg" src="./img/products/p1.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p1.png">رفع الحجم العضلي</a>
+                    </div>
+                    <div class="price">
+                        <p>105 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count1" class="quantityTextBox">0</p>
+                        <img id="plus1" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus1" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button id="shoppingButton" class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 2 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p2.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p2.png">زيادة الكتلة العضلية وحرق الدهون</a>
+                    </div>
+                    <div class="price">
+                        <p>107 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count2" class="quantityTextBox">0</p>
+                        <img id="plus2" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus2" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 3 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p3.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p3.png">رفع الوزن وزيادة حجم العضلة</a>
+                    </div>
+                    <div class="price">
+                        <p>103 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count3" class="quantityTextBox">0</p>
+                        <img id="plus3" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus3" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 4 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p4.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p4.png">ميتا بيور زيرو و مايكرونوايد</a>
+                    </div>
+                    <div class="price">
+                        <p>102 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count4" class="quantityTextBox">0</p>
+                        <img id="plus4" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus4" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 5 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p5.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p5.png">تركيبة ملتي فيتامين للصباح والمساء</a>
+                    </div>
+                    <div class="price">
+                        <p>95 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count5" class="quantityTextBox">0</p>
+                        <img id="plus5" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus5" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 6 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p6.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p6.png">100% بيف أميونوز</a>
+                    </div>
+                    <div class="price">
+                        <p>49 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count6" class="quantityTextBox">0</p>
+                        <img id="plus6" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus6" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 7 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p7.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p7.png">الواح 50% بروتين بالشوكولاتة</a>
+                    </div>
+                    <div class="price">
+                        <p>3.5 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count7" class="quantityTextBox">0</p>
+                        <img id="plus7" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus7" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+            <!--product 8 -->
+            <div class="product">
+                <img class="productImg" src="./img/products/p8.png" alt="" height="200" width="180">
+                <div class="informationContainer">
+                    <div class="anchor">
+                        <a href="./img/products/p8.png">الواح كارب كيلا</a>
+                    </div>
+                    <div class="price">
+                        <p>3 &dollar;</p>
+                    </div>
+                    <div class="quantityText">
+                        <p>الكمية: </p>
+                    </div>
+                    <div class="quantity">
+                        <p id="count8" class="quantityTextBox">0</p>
+                        <img id="plus8" class="plus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVRJREFUSEu9lW1RAzEURU+VAAqgCkACKAAHUCWAAkAB4AAUAA6KEpgzk9dJ0t2klG3fTH7sJrn3fd7M2LHNdozPJgRXwClwkpY+fab1Ary2nGwRnAO3wGEnyiWwACRbszGCO+A6nf4G/H5LXvvbaM6AG+AgnfOMRIUNEeTgXvC7ZZIYqXafSFfnawLT8px255nHvV4woo906CJPV01gPg15zPOfBDIUeUQixlF4lB+0Wx4Acz5W2BaBmOHgKoqc4BG4bHgvQI8gongCdLiYA3v7GGjlvkcQtRBLnIJg6HL86xU5z0SBM7qRECclmDJFXyErey1yDFnRx1Xye0Vutmnex/8ZtGKO9i4VRpGLnYOjgE0mdgGUk5hXv98rufYR0oGQlTUlrQet9tKiCxx6PxaFOZfoTw9ODiaRSxlQSjT73LkRdBB4SE17crDV/iaP/lbAcekXtcVYGaT13/YAAAAASUVORK5CYII="
+                        />
+                        <img id="minus8" class="minus" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEu9leFRwzAMhb9OAkwAnQBGgAlgA+gkwATABMAGMAGwQZkE7uOsnuMmscOl1Z1/xFb09GTpecGObbHj+LQAXAGnwEla5vSZ1gvwOpbkGMA5cAscVliugRUg2JYNAdwB18n7G/D7LWXttmzOgBvgIPnpI1DH+gDy4P7g95gJIlPtPoFu/EsAy/KcTpdZxrVekNFHcrrIy1UCWE8pt2ReggYTYxzFYQ5gtzwA1rx2sUOMIsENixzgEbj8Z/YBGCyeABPuzIG9fQxMqX3JJO7CWMbpAPwk75xV7NUuue+fv73BgxRxVoA5S/QVsrLXS44h6/RxrfjF+Wib6jvHoHXmaO9SIYtc7BwcBWw2sYtAOYhl8/u9kGsfIRMIWdlS0nIOyiy9dAOH3g+xsOYCTXpw8mACuZQBpUSzz50bg/YG7lPTiR3Z5t7y6LdFGvD6BU/pUBk06brSAAAAAElFTkSuQmCC"
+                        />
+                    </div>
+                    <div class="shopping">
+                        <img class="shoppingCart" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQlJREFUSEvNlMEVATEQhr+tgBKoAB1QAR3gygEdUAEXrqgAHVABKkAFqIA33mbf2pVNWPHMNZP55s8/Ew/H4Tmuz08BN1/NBZgBvW+oCytQAFW3AqzTQl49URcYAiug5gKQBc5+4TxwTAPRmSwe1FMU3gElua8DFIFtCsAJyCUB5Ey6KGggqrHoYKj0AdA3ARrA9ENA4J1p0WQnMiGILj+sZAOU1R0TYAR03gQ0/UV9XDMBxKjDi2fSeXD1zRXlVgBJWgLVCEQHmAPiXRAmBZIo27ywHNnY92IDMI2sYu8B2Z+nsAVYCoin2QLGQAuYAO1ImaQz4xSpWuE5jzaVdGYNcK7AuQf/C7gDNOwuGTttIPQAAAAASUVORK5CYII="
+                        />
+                        <button class="shoppingButton">إضافة إلى السلة</button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+    <script src="./js/market.js"></script>
+</body>
+
+</html>
